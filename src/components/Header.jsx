@@ -5,6 +5,7 @@ const Header = () => {
         <div>
             <h1> Zdarova ebat' </h1>
             <h1> Poshel Nahuy)</h1>
+            <h1> neeeeett </h1>
         </div>
     );
 };
