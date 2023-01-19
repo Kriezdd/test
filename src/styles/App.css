@@ -1,23 +1,36 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Header {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 20px 0 20px 0;
+}
+.Header h1 {
+  font-family: "Raleway", sans-serif;
+  font-size: 30px;
 }
 
 #root {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .App {
-    width: 800px;
+  width: 800px;
 }
 
 .post {
-    display: flex;
-    padding: 15px;
-    border: 2px solid teal;
-    margin-top: 15px;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  padding: 15px;
+  border: 2px solid teal;
+  margin-top: 15px;
+  justify-content: space-between;
+  align-items: center;
 }
+
+/*# sourceMappingURL=App.css.map */

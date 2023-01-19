@@ -1,5 +1,5 @@
 import React, {useRef, useState} from "react";
-import './styles/App.css'
+import './styles/App.scss'
 import PostItem from "./components/PostItem";
 import PostList from "./components/PostList";
 import MyButton from "./components/UI/button/MyButton";
