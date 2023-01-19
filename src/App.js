@@ -5,6 +5,7 @@ import PostList from "./components/PostList";
 import MyButton from "./components/UI/button/MyButton";
 import MyInput from "./components/UI/input/MyInput";
 import PostForm from "./components/PostForm";
+import Header from "./components/Header";
 
 function App() {
     const [posts, setPosts] = useState([
@@ -24,6 +25,7 @@ function App() {
 
   return (
     <div className="App">
+        <Header/>
         <PostForm create={createPost}/>
         {posts.length
             ? <PostList remove={removePost} posts={posts} title="Список постов 1"/>
